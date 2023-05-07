@@ -1163,993 +1163,6 @@ color: #3562D4;
 
 
 
-
-@media (max-width:768px){
-   
-
-    .header-section-container{
-        width: 100%;
-        height: auto;
-        padding: 2rem 4rem 2rem 4rem;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-    }
-
-    .header-links-container{
-        width: fit-content;
-        height: auto;
-    }
-    
-    .header-links{
-        display: flex;
-        flex-direction: row;
-        justify-content: start;
-        align-items: center;
-        column-gap: 1rem;
-        list-style: none;
-    }
-
-   
-
-    .hero-section{
-        width: 100%;
-        height: auto;
-        padding: 1rem;
-        display: flex;
-        flex-direction: column;
-        justify-content: start;
-        align-content: center;
-        row-gap: 2rem;
-    }
-
-    .left-hero-section-container{
-        width: 100%;
-        height: auto;
-        border-radius: 1rem;
-        background-image: url("./images/Hero\ Left.svg");
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
-    }
-
-    .left-hero-contents-container{
-        width: fit-content;
-        height: auto;
-        padding: 3rem 2rem 2rem 2rem;
-    }
-    
-    .hero-heading-text-container{
-        width: fit-content;
-        height: auto;
-    }
-    
-    .heading-text{
-        font-size: 2rem;
-        font-weight: bold;
-    }
-    
-    .hero-body-text-container{
-        width: fit-content;
-        height: auto;
-        margin-top: 4rem;
-    }
-    
-    .body-text{
-        font-size: 1.25rem;
-        font-weight: 400;
-    }
-
-    .hero-bottom-contents-container{
-        width: fit-content;
-        height: auto;
-        margin-top: 4rem;
-        display: flex;
-        flex-direction: row;
-        justify-content: start;
-        align-items: center;
-        column-gap: 2rem;
-        margin-bottom: 1rem;
-    }
-
-    .hero-button-container{
-        width: fit-content;
-        height: auto;
-    }
-    
-    .contact-me{
-        font-size: 1rem;
-        padding: 1rem 1.5rem 1rem 1.5rem;
-        color: black;
-        border: 2px solid black;
-        border-radius: 1rem;
-        transition-property: all;
-        transition-duration: 0.5s;
-        transition-delay: 0.1s;
-        transition-timing-function: ease-in-out;
-    }
-    
-    .contact-me:hover{
-        font-size: 1rem;
-        color: white;
-        background-color: black;
-        border-radius: 1rem;
-        transform: translate(20px);
-    }
-
-    .right-hero-section-container{
-        width: 100%;
-        height: auto;
-    }
-    
-    
-    .hero-image-container{
-        width: 100%;
-        height: 90vh;
-        background-image: url("./images/main.svg");
-        background-position: top;
-        background-size: cover;
-        background-repeat: no-repeat;    
-        border-radius: 1rem;
-    }
-
-    .project-list-section{
-        width: 100%;
-        height: auto;
-        margin-top: 0.5rem;
-        padding: 1rem;
-    }
-    
-    .project-list-container{
-        width: 100%;
-        height: auto;
-        display: flex;
-        flex-direction: column;
-        justify-content: start;
-        align-items: center;
-        column-gap: 2rem;
-    }
-
-    .pickcash-container{
-        width: 100%;
-        height: 75vh;
-        background-image: url("./images/Pickcash.svg");
-        background-position: left;
-        background-size: cover;
-        background-repeat: no-repeat;
-        border-radius: 1rem;
-        text-decoration: none;
-    }
-    
-    .pickcash-text-container{
-        width: fit-content;
-        height: auto;
-        margin-left: 2rem;
-        margin-top: 2rem;
-    }
-    
-    .loan-app-text{
-        font-size: 2rem;
-        font-weight: 700;
-        color: white;
-    }
-    
-    .conversion-website-container{
-        width: 100%;
-        height: 75vh;
-        margin-top: 1rem;
-        background-image: url("./images/Arc\ 2.svg");
-        background-position: left;
-        background-size: cover;
-        background-repeat: no-repeat;
-        border-radius: 1rem;
-        text-decoration: none;
-    }
-    
-    .conversion-text-container{
-        width: fit-content;
-        height: auto;
-        margin-left: 2rem;
-        margin-top: 2rem;
-    }
-    
-    .website-redesign-text{
-        font-size: 2rem;
-        font-weight: 600;
-        color: white;
-    }
-
-    .footer-section{
-        width: 100%;
-        height: auto;
-        margin-top: 1rem;
-        padding: 1rem;
-        
-      
-    }
-    
-    .footer-body{
-        width: 100%;
-        height: auto;
-        background-image: url("./images/Hero\ Left.svg");
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
-        border-radius: 1rem;
-    }
-    
-    .footer-section-contents-container{
-        width: 100%;
-        height: auto;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        padding: 2rem 0 2rem 0;
-    }
-    
-    .footer-section-main-text-container{
-        width: fit-content;
-        height: auto;
-    }
-    
-    .footer-big-text{
-        font-size: 2rem;
-        font-weight: bold;
-    }
-    
-    .footer-section-description-text-container{
-        width: fit-content;
-        height: auto;
-        margin-top: 0.5rem;
-    }
-    
-    .footer-small-text{
-        font-size: 1rem;
-        font-weight: 400;
-    }
-    
-    .footer-section-email-container{
-        width: fit-content;
-        height: auto;
-        margin-top: 0.5rem;
-    }
-    
-    .footer-email{
-        font-size: 1rem;
-        font-weight: 400;
-    }
-    
-    .footer-section-phone-container{
-        width: fit-content;
-        height: auto;
-        margin-top: 0.5rem;
-    }
-    
-    .footer-phone{
-        font-size: 1rem;
-        font-weight: 400;
-    }
-
-    .footer-button-container{
-        width: fit-content;
-        height: auto;
-        margin-top: 3rem;
-    }
-
-
-
-
-
-    .about-section{
-        width: 100%;
-        height: auto;
-        margin-top: 2rem;
-        padding: 1rem;
-        display: flex;
-        flex-direction: column;
-        justify-content: start;
-        align-content: center;
-        column-gap: 2rem;
-    }
-    
-    .about-section-left-side-container{
-        display: none;
-    }
-
-    .about-section-right-side-container{
-        width: 100%;
-        height: auto;
-        
-    }
-    
-    .about-section-right-side-contents-container{
-        width: fit-content;
-        height: auto;
-        padding: 1rem 2rem 2rem 2rem;
-        border-radius: 1.5rem;
-        background-image: url("./images/Hero\ Left.svg");
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
-    }
-
-    .second-about-section-left-side-container{
-        display: inline;
-        width: 100%;
-        height: auto;
-        margin-top: 1.5rem;
-    }
-    
-    .second-about-section-image-container{
-        width: 100%;
-        height: 100vh;
-        background-image: url("./images/Preshymama\ About.svg");
-        background-position: top;
-        background-size: cover;
-        background-repeat: no-repeat; 
-        border-radius: 1.5rem;
-    }
-
-
-
-
-
-    .top-section{
-        width: 100%;
-        height: auto;
-        padding: 1rem ;
-    }
-    
-    .top-section-container{
-        width: 100%;
-        height: auto;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        margin-top: 1.5rem;
-    }
-    
-    .pickcash-heading-text-container{
-        width: fit-content;
-        height: auto;
-    }
-    
-    .pickcash-text{
-        font-size: 2rem;
-        font-weight: bold;
-        color: #3562D4;
-    }
-    
-    .dev-and-design-text-container{
-        width: fit-content;
-        height: auto;
-        margin-top: 0.5rem;
-    }
-    
-    .dev-and-design-text{
-        font-size: 1rem;
-        font-weight: 400;
-    }
-    
-    .year-container{
-        width: fit-content;
-        height: auto;
-        margin-top: 0.25rem;
-    }
-    
-    .year-text{
-        font-size: 0.75rem;
-        font-weight: 400;
-    }
-    
-    .pick-cash-top-image-container{
-        width: 100%;
-        height: 50vh;
-        border: 1px solid #4e4e4e;
-        border-radius: 0.75rem;
-        margin-top: 1.5rem;
-        background-image: url("./images/Pickcash\ top.svg");
-        background-repeat: no-repeat; 
-    }
-    
-    .product-detail{
-        width: 100%;
-        height: auto;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        margin-top: 1.5rem;
-        padding: 1rem ;
-    }
-    
-    .product-detail-heading-text-container{
-        width: fit-content;
-        height: auto;
-    }
-    
-    .product-detail-text{
-    font-size: 1rem;
-    font-weight: bold;
-    color: #3562D4;
-    }
-    
-    .about-pickcash-app-description-container{
-        width: fit-content;
-        height: auto;
-        margin-top: 0.75rem;
-    }
-    
-    .pickcash-description-text{
-        font-size: 1rem;
-        font-weight: 400;
-    }
-    
-    .background-text-container{
-        width: fit-content;
-        height: auto;
-        margin-top: 1.5rem;
-    }
-    
-    .background-text{
-        font-size: 1rem;
-        font-weight: bold;
-        color: #3562D4;
-    }
-    
-    .background-description-text-container{
-        width: fit-content;
-        height: auto;
-        margin-top: 0.75rem;
-    }
-    
-    .background-description-text{
-        font-size: 1rem;
-        font-weight: 400;
-    }
-    
-    .problem-statement-text-container{
-        width: fit-content;
-        height: auto;
-        margin-top: 1.5rem;
-    }
-    
-    .problem-statement-text{
-        font-size: 1rem;
-        font-weight: bold;
-        color: #3562D4;
-    }
-    
-    .problem-statement-description-text{
-        font-size: 1rem;
-        font-weight: 400;
-        margin-top: 0.75rem;
-    }
-    
-    .objective-and-goals-text-container{
-        width: fit-content;
-        height: auto;
-        margin-top: 1.5rem;
-    }
-    
-    .objective-and-goals-text{
-        font-size: 1rem;
-        font-weight: bold;
-        color: #3562D4;
-    }
-    
-    .objective-and-goals-text{
-        width: fit-content;
-        height: auto;
-    }
-    
-    .ul-list{
-        margin-top: 0.75rem;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        column-gap: 1 rem;
-    }
-    
-    .ul-list li{
-        font-size: 1rem;
-        font-weight: 400;
-    }
-    
-    .roles-text-container{
-        width: fit-content;
-        height: auto;
-        margin-top: 1.5rem;
-    }
-    
-    .roles-text{
-        font-size: 1rem;
-        font-weight: bold;
-        color: #3562D4;
-    }
-    
-    .roles-description-container{
-        width: fit-content;
-        height: auto;
-        margin-top: 0.75rem;
-    }
-    
-    .role-1{
-        font-size: 1rem;
-        font-weight: 400;
-    }
-    
-    .role-2{
-        font-size: 1rem;
-        font-weight: 400;
-        margin-top: 0.75rem;
-    }
-    
-    
-    .design-process-text-container{
-        width: fit-content;
-        height: auto;
-        margin-top: 1.5rem;
-    }
-    
-    .design-process-text{
-        font-size: 1rem;
-        font-weight: bold;
-        color: #3562D4;
-    }
-    
-    .design-process-image-container{
-        width: 100%;
-        height: 50vh;
-        border: 1px solid #4e4e4e;
-        border-radius: 0.75rem;
-        margin-top: 1.5rem;
-        background-image: url("./images/Design\ P.svg");
-        background-position: center;
-        
-        background-repeat: no-repeat;
-    }
-    
-    .project-duration-text-container{
-        width: fit-content;
-        height: auto;
-        margin-top: 1.5rem;
-    }
-    
-    .project-duration-text{
-        font-size: 1rem;
-        font-weight: bold;
-        color: #3562D4;
-    }
-    
-    .project-duration-image-container{
-        width: 100%;
-        height: 50vh;
-        border: 1px solid #4e4e4e;
-        border-radius: 0.75rem;
-        margin-top: 1.5rem;
-        background-image: url("./images/Project\ Duration.svg");
-        background-position: center;
-        
-        background-repeat: no-repeat;
-    }
-    
-    .user-persona-text-container{
-        width: fit-content;
-        height: auto;
-        margin-top: 1.5rem;
-    }
-    
-    .user-persona-text{
-        font-size: 1rem;
-        font-weight: bold;
-        color: #3562D4;
-    }
-    
-    .user-persona-image-container{
-        width: 100%;
-        height: 50vh;
-        border: 1px solid #4e4e4e;
-        border-radius: 0.75rem;
-        margin-top: 1.5rem;
-        background-image: url("./images/User\ Persona.svg");
-        background-position: center;
-        
-        background-repeat: no-repeat;
-    }
-    
-    .information-architecture-text-container{
-        width: fit-content;
-        height: auto;
-        margin-top: 1.5rem;
-    }
-    
-    .information-architecture-text{
-        font-size: 1rem;
-        font-weight: bold;
-        color: #3562D4;
-    }
-    
-    .information-architecture-image-container{
-        width: 100%;
-        height: 100vh;
-        border: 1px solid #4e4e4e;
-        border-radius: 0.75rem;
-        margin-top: 1.5rem;
-        background-image: url("./images/Info\ Arc.svg");
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
-    }
-    
-    .color-style-text-container{
-        width: fit-content;
-        height: auto;
-        margin-top: 1.5rem;
-    }
-    
-    .color-style-text{
-        font-size: 1rem;
-        font-weight: bold;
-        color: #3562D4;
-    }
-    
-    .color-style-image-container{
-        width: 100%;
-        height: 50vh;
-        border: 1px solid #4e4e4e;
-        border-radius: 0.75rem;
-        margin-top: 1.5rem;
-        background-image: url("./images/Color\ Style.svg");
-        background-position: center;
-        
-        background-repeat: no-repeat;
-    }
-    
-    .text-style-text-container{
-        width: fit-content;
-        height: auto;
-        margin-top: 1.5rem;
-    }
-    
-    .text-style-text{
-        font-size: 1rem;
-        font-weight: bold;
-        color: #3562D4;
-    }
-    
-    .text-style-image-container{
-        width: 100%;
-        height: 50vh;
-        border: 1px solid #4e4e4e;
-        border-radius: 0.75rem;
-        margin-top: 1.5rem;
-        background-image: url("./images/Text\ Style.svg");
-        background-position: center;
-        
-        background-repeat: no-repeat;
-    }
-    
-    .components-text-container{
-        width: fit-content;
-        height: auto;
-        margin-top: 1.5rem;
-    }
-    
-    .components-text{
-        font-size: 1rem;
-        font-weight: bold;
-        color: #3562D4;
-    }
-    
-    .components-image-container{
-        width: 100%;
-        height: 50vh;
-        border: 1px solid #4e4e4e;
-        border-radius: 0.75rem;
-        margin-top: 1.5rem;
-        background-image: url("./images/Component.svg");
-        background-position: center;
-        
-        background-repeat: no-repeat;
-    }
-    
-    .lo-fidelity-text-container{
-        width: fit-content;
-        height: auto;
-        margin-top: 1.5rem;
-    }
-    
-    .lo-fidelity-text{
-        font-size: 1rem;
-        font-weight: bold;
-        color: #3562D4;
-    }
-    
-    .lo-fidelity-image-container{
-        width: 100%;
-        height: 70vh;
-        border: 1px solid #4e4e4e;
-        border-radius: 0.75rem;
-        margin-top: 1.5rem;
-        background-image: url("./images/Lo-Fidelity.svg");
-        background-position: center;
-        
-        background-repeat: no-repeat;
-    }
-    
-    .hi-fidelity-text-container{
-        width: fit-content;
-        height: auto;
-        margin-top: 1.5rem;
-    }
-    
-    .hi-fidelity-text{
-        font-size: 1rem;
-        font-weight: bold;
-        color: #3562D4;
-    }
-    
-    
-    .pickcash-hifi-container{
-        width: 100%;
-        height: 100vh;
-        border: 1px solid #4e4e4e;
-        border-radius: 0.75rem;
-        margin-top: 1.5rem;
-        background-image: url("./images/Pickcash\ hifi.svg");
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
-    }
-    
-    .pickcash-button-bottom-container{
-        width: fit-content;
-        height: auto;
-        margin-top: 1.5rem;
-    }
-    
-    
-    .pickcash-bottom-button{
-        font-size: 1rem;
-        padding: 1rem 1.5rem 1rem 1.5rem;
-        color: black;
-        border: 2px solid black;
-        border-radius: 1rem;
-        transition-property: all;
-        transition-duration: 0.5s;
-        transition-delay: 0.1s;
-        transition-timing-function: ease-in-out;
-    }
-    
-    .pickcash-bottom-button:hover{
-        font-size: 1rem;
-        color: white;
-        background-color: black;
-        border-radius: 1rem;
-        transform: translate(20px);
-    }
-
-
-
-
-
-    .top-section2{
-        width: 100%;
-        height: auto;
-        padding: 1rem ;
-    }
-    
-    .top-section-container2{
-        width: 100%;
-        height: auto;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        margin-top: 1rem;
-    }
-    
-    .conversion-heading-text-container{
-        width: fit-content;
-        height: auto;
-    }
-    
-    .conversion-text{
-        font-size: 2rem;
-        font-weight: bold;
-        color: black;
-    }
-    
-    .conversion-top-image-container{
-        width: 100%;
-        height: 100vh;
-        border: 1px solid #4e4e4e;
-        border-radius: 0.75rem;
-        margin-top: 1.5rem;
-        background-image: url("./images/Arc\ 2.svg");
-        background-position: left;
-        background-size: cover;
-        background-repeat: no-repeat;
-    }
-    
-    .main-overview-container{
-        width: 100%;
-        height: auto;
-        margin-top: 1.5rem;
-        padding: 1rem;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-    
-    .overview-text-container{
-        width: fit-content;
-        height: auto;
-    }
-    
-    .overview{
-        font-size: 1rem;
-        font-weight: bold;
-        color: black;
-    }
-    
-    .task-and-method-container{
-        width: 100%;
-        height: auto;
-        margin-top: 1.5rem;
-        
-        display: flex;
-        flex-direction: row;
-        justify-content: start;
-        align-items: start;
-        column-gap: 4rem;
-    }
-    
-    .task-details-container{
-        width: 50%;
-        height: auto;
-    }
-    
-    .task-text-container{
-        width: fit-content;
-        height:auto;
-    }
-    
-    .task{
-        font-size: 1rem;
-        font-weight: bold;
-        color: black;
-    }
-    
-    .task-detail-text-container{
-        width: fit-content;
-        height: auto;
-        margin-top: 1rem;
-    }
-    
-    .task-details-text{
-        font-size: 1rem;
-        color: black;
-    }
-    
-    .method-details-container{
-        width: 50%;
-        height: auto;
-    }
-    
-    .method-text-container{
-        width: fit-content;
-        height:auto;
-    }
-    
-    .method{
-        font-size: 1rem;
-        font-weight: bold;
-        color: black;
-    }
-    
-    .method-details-text-container{
-        width: fit-content;
-        height: auto;
-        margin-top: 1rem;
-    }
-    
-    .method-details-text{
-        font-size: 1rem;
-        color: black;
-    }
-    
-    .screen-details{
-        width: 100%;
-        height: auto;
-        display: flex;
-        flex-direction: column;
-        justify-content: start;
-        align-items: start;
-        row-gap: 1rem;
-        padding: 1rem 2rem 0 1rem;
-        
-    }
-    
-    .left-desktop-screen-details-container{
-        width: 100%;
-        height: auto;
-        display: flex;
-        flex-direction: column;
-        justify-content: start;
-        align-items: start;
-    }
-    
-    .desktop-text-container{
-        width: fit-content;
-        height: auto;
-    }
-    
-    .desktop{
-        font-size: 1rem;
-        font-weight: bold;
-        color: black;
-    }
-    
-    .desktop-image-container{
-        width: fit-content;
-        height: auto;
-        margin-top: 1rem;
-    }
-    
-    .right-tablet-screen-details-container{
-        width: 40%;
-        height: auto;
-    }
-    
-    .tablet-text-container{
-        width: fit-content;
-        height: auto;
-    }
-    
-    .tablet{
-        font-size: 1.5rem;
-        font-weight: bold;
-        color: black;
-    }
-    
-    .tablet-image-container{
-        width: fit-content;
-        height: auto;
-        margin-top: 1rem;
-    }
-    
-    .mobile-text-container{
-        width: fit-content;
-        height: auto;
-        margin-top: 8rem;
-    }
-    
-    .mobile{
-        font-size: 1.5rem;
-        font-weight: bold;
-        color: black;
-    }
-    
-    .mobile-image-container{
-        width: 60%;
-        height: auto;
-        margin-top: 1rem;
-    }
-    
-    .conversion-components{
-        display: none;
-    }
-    
-}
-
-
 @media (max-width:576px){
    
     .header-section-container{
@@ -3161,18 +2174,16 @@ color: #3562D4;
     
 }
 
-  @media (max-width:992px){
-   
-
+@media (min-width: 577px) and (max-width:768px){
     .header-section-container{
         width: 100%;
         height: auto;
-        padding: 2rem 4rem 2rem 4rem;
+        padding: 2rem ;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
-        column-gap: 2rem;
+        column-gap: 1rem;
     }
 
     .header-links-container{
@@ -3189,8 +2200,6 @@ color: #3562D4;
         list-style: none;
     }
 
-   
-
     .hero-section{
         width: 100%;
         height: auto;
@@ -3199,7 +2208,7 @@ color: #3562D4;
         flex-direction: column;
         justify-content: start;
         align-content: center;
-        row-gap: 1.5rem;
+        row-gap: 1rem;
     }
 
     .left-hero-section-container{
@@ -3284,7 +2293,7 @@ color: #3562D4;
     
     .hero-image-container{
         width: 100%;
-        height: 150vh;
+        height: 90vh;
         background-image: url("./images/main.svg");
         background-position: top;
         background-size: cover;
@@ -3311,7 +2320,7 @@ color: #3562D4;
 
     .pickcash-container{
         width: 100%;
-        height: 100vh;
+        height: 75vh;
         background-image: url("./images/Pickcash.svg");
         background-position: left;
         background-size: cover;
@@ -3335,7 +2344,7 @@ color: #3562D4;
     
     .conversion-website-container{
         width: 100%;
-        height: 100vh;
+        height: 75vh;
         margin-top: 1rem;
         background-image: url("./images/Arc\ 2.svg");
         background-position: left;
@@ -3393,7 +2402,7 @@ color: #3562D4;
     }
     
     .footer-big-text{
-        font-size: 2rem;
+        font-size: 1.5rem;
         font-weight: bold;
     }
     
@@ -3462,10 +2471,6 @@ color: #3562D4;
         transform: translate(20px);
     }
 
-
-
-
-
     .about-section{
         width: 100%;
         height: auto;
@@ -3508,7 +2513,7 @@ color: #3562D4;
     
     .second-about-section-image-container{
         width: 100%;
-        height: 150vh;
+        height: 100vh;
         background-image: url("./images/Preshymama\ About.svg");
         background-position: top;
         background-size: cover;
@@ -3571,7 +2576,7 @@ color: #3562D4;
     
     .pick-cash-top-image-container{
         width: 100%;
-        height: 80vh;
+        height: 50vh;
         border: 1px solid #4e4e4e;
         border-radius: 0.75rem;
         margin-top: 1.5rem;
@@ -3752,7 +2757,7 @@ color: #3562D4;
     
     .project-duration-image-container{
         width: 100%;
-        height: 70vh;
+        height: 50vh;
         border: 1px solid #4e4e4e;
         border-radius: 0.75rem;
         margin-top: 1.5rem;
@@ -3776,7 +2781,7 @@ color: #3562D4;
     
     .user-persona-image-container{
         width: 100%;
-        height: 100vh;
+        height: 90vh;
         border: 1px solid #4e4e4e;
         border-radius: 0.75rem;
         margin-top: 1.5rem;
@@ -3800,7 +2805,7 @@ color: #3562D4;
     
     .information-architecture-image-container{
         width: 100%;
-        height: 120vh;
+        height: 100vh;
         border: 1px solid #4e4e4e;
         border-radius: 0.75rem;
         margin-top: 1.5rem;
@@ -3848,7 +2853,7 @@ color: #3562D4;
     
     .text-style-image-container{
         width: 100%;
-        height: 70vh;
+        height: 50vh;
         border: 1px solid #4e4e4e;
         border-radius: 0.75rem;
         margin-top: 1.5rem;
@@ -3872,7 +2877,7 @@ color: #3562D4;
     
     .components-image-container{
         width: 100%;
-        height: 70vh;
+        height: 90vh;
         border: 1px solid #4e4e4e;
         border-radius: 0.75rem;
         margin-top: 1.5rem;
@@ -3921,7 +2926,7 @@ color: #3562D4;
     
     .pickcash-hifi-container{
         width: 100%;
-        height: 130vh;
+        height: 100vh;
         border: 1px solid #4e4e4e;
         border-radius: 0.75rem;
         margin-top: 1.5rem;
@@ -3952,33 +2957,6 @@ color: #3562D4;
     
     .pickcash-bottom-button:hover{
         font-size: 1rem;
-        color: white;
-        background-color: black;
-        border-radius: 1rem;
-        transform: translate(20px);
-    }
-
-    .pickcash-button-bottom-container{
-        width: fit-content;
-        height: auto;
-        margin-top: 1.5rem;
-    }
-    
-    
-    .pickcash-bottom-button{
-        font-size: 0.75rem;
-        padding: 1rem;
-        color: black;
-        border: 2px solid black;
-        border-radius: 1rem;
-        transition-property: all;
-        transition-duration: 0.5s;
-        transition-delay: 0.1s;
-        transition-timing-function: ease-in-out;
-    }
-    
-    .pickcash-bottom-button:hover{
-        font-size: 0.75rem;
         color: white;
         background-color: black;
         border-radius: 1rem;
@@ -4122,7 +3100,7 @@ color: #3562D4;
         display: flex;
         flex-direction: column;
         justify-content: start;
-        align-items: st;
+        align-items: start;
         row-gap: 1rem;
         padding: 1rem 2rem 0 1rem;
         
@@ -4149,13 +3127,13 @@ color: #3562D4;
     }
     
     .desktop-image-container{
-        width: 100%;
+        width: fit-content;
         height: auto;
         margin-top: 1rem;
     }
     
     .right-tablet-screen-details-container{
-        width: 100%;
+        width: 40%;
         height: auto;
     }
     
@@ -4171,7 +3149,7 @@ color: #3562D4;
     }
     
     .tablet-image-container{
-        width: 100%;
+        width: fit-content;
         height: auto;
         margin-top: 1rem;
     }
@@ -4197,5 +3175,1161 @@ color: #3562D4;
     .conversion-components{
         display: none;
     }
+
+}
+
+
+@media (min-width: 769px) and (max-width:992px){
+    .header-section-container{
+        width: 100%;
+        height: auto;
+        padding: 2rem 4rem 2rem 4rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
     
-}   
+    .header-links-container{
+        width: fit-content;
+        height: auto;
+    }
+    
+    .header-links{
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+        align-items: center;
+        column-gap: 2rem;
+        list-style: none;
+    }
+    
+    .header-links li a{
+        font-size: 1.25rem;
+        font-weight: bold;
+        color: black;
+        text-decoration: none;
+    }
+    
+    .header-links li a:hover{
+         text-decoration: underline;
+    }
+    
+    .menu-icon-container{ 
+        display: none;
+    }
+    
+    
+    .hero-section{
+        width: 100%;
+        height: auto;
+        padding: 1rem 1.5rem 1rem 1.5rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-content: center;
+        column-gap: 1rem;
+    }
+    
+    .left-hero-section-container{
+        width: 70%;
+        height: auto;
+        border-radius: 1.5rem;
+        background-image: url("./images/Hero\ Left.svg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    
+    .left-hero-contents-container{
+        width: fit-content;
+        height: auto;
+        padding: 3rem 2rem 2rem 2rem;
+    }
+    
+    .hero-heading-text-container{
+        width: fit-content;
+        height: auto;
+    }
+    
+    .heading-text{
+        font-size: 2rem;
+        font-weight: bold;
+    }
+    
+    .hero-body-text-container{
+        width: fit-content;
+        height: auto;
+        margin-top: 6rem;
+    }
+    
+    .body-text{
+        font-size: 1.5rem;
+        font-weight: 400;
+    }
+    
+    .hero-bottom-contents-container{
+        width: fit-content;
+        height: auto;
+        margin-top: 6rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+        align-items: center;
+        column-gap: 2rem;
+    }
+    
+    .hero-button-container{
+        width: fit-content;
+        height: auto;
+    }
+    
+    .contact-me{
+        font-size: 1rem;
+        padding: 1rem 1.5rem 1rem 1.5rem;
+        color: black;
+        border: 2px solid black;
+        border-radius: 1rem;
+        transition-property: all;
+        transition-duration: 0.5s;
+        transition-delay: 0.1s;
+        transition-timing-function: ease-in-out;
+    }
+    
+    .contact-me:hover{
+        font-size: 1rem;
+        color: white;
+        background-color: black;
+        border-radius: 1rem;
+        transform: translate(20px);
+    }
+    
+    .hero-socials-link-container{
+        width: fit-content;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+        align-items: center;
+        column-gap: 1rem;
+    }
+    
+    .right-hero-section-container{
+        width: 30%;
+        height: auto;
+    }
+    
+    
+    .hero-image-container{
+        width: 100%;
+        height: 90vh;
+        background-image: url("./images/main.svg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;    
+        border-radius: 1.5rem;
+    }
+    
+    /* .hero-image{
+        width: fit-content;
+        height: auto;
+        border-radius: 1.5rem;
+    } */
+    
+    .project-list-section{
+        width: 100%;
+        height: auto;
+        margin-top: 1.5rem;
+        padding: 1rem 1.5rem 1rem 1.5rem;
+    
+    }
+    
+    .project-list-container{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+        align-items: start;
+        column-gap: 1.5rem;
+    }
+    
+    .pickcash-container{
+        width: 50%;
+        height: 75vh;
+        background-image: url("./images/Pickcash.svg");
+        background-position: left;
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 1.5rem;
+        text-decoration: none;
+    }
+    
+    .pickcash-text-container{
+        width: fit-content;
+        height: auto;
+        margin-left: 2rem;
+        margin-top: 2rem;
+    }
+    
+    .loan-app-text{
+        font-size: 2rem;
+        font-weight: 700;
+        color: white;
+    }
+    
+    .conversion-website-container{
+        width: 50%;
+        height: 75vh;
+        background-image: url("./images/Arc\ 2.svg");
+        background-position: left;
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 1.5rem;
+        text-decoration: none;
+    }
+    
+    .conversion-text-container{
+        width: fit-content;
+        height: auto;
+        margin-left: 2rem;
+        margin-top: 2rem;
+    }
+    
+    .website-redesign-text{
+        font-size: 2rem;
+        font-weight: 600;
+        color: white;
+    }
+    
+    .footer-section{
+        width: 100%;
+        height: auto;
+        margin-top: 1rem;
+        padding: 1rem 1.5rem 1rem 1.5rem;
+        
+      
+    }
+    
+    .footer-body{
+        width: 100%;
+        height: auto;
+        background-image: url("./images/Hero\ Left.svg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 1.5rem;
+    }
+    
+    .footer-section-contents-container{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 3.5rem 0 2rem 0;
+    }
+    
+    .footer-section-main-text-container{
+        width: fit-content;
+        height: auto;
+    }
+    
+    .footer-big-text{
+        font-size: 2rem;
+        font-weight: bold;
+    }
+    
+    .footer-section-description-text-container{
+        width: fit-content;
+        height: auto;
+        margin-top: 0.5rem;
+    }
+    
+    .footer-small-text{
+        font-size: 1.25rem;
+        font-weight: 400;
+    }
+    
+    .footer-section-email-container{
+        width: fit-content;
+        height: auto;
+        margin-top: 0.5rem;
+    }
+    
+    .footer-email{
+        font-size: 1.25rem;
+        font-weight: 400;
+    }
+    
+    .footer-section-phone-container{
+        width: fit-content;
+        height: auto;
+        margin-top: 0.5rem;
+    }
+    
+    .footer-phone{
+        font-size: 1.25rem;
+        font-weight: 400;
+    }
+    
+    .footer-button-container{
+        width: fit-content;
+        height: auto;
+        margin-top: 6rem;
+    }
+    
+    .footer-contact-button{
+        font-size: 1rem;
+        padding: 1rem 1.5rem 1rem 1.5rem;
+        color: black;
+        border: 2px solid black;
+        border-radius: 1rem;
+        transition-property: all;
+        transition-duration: 0.5s;
+        transition-delay: 0.1s;
+        transition-timing-function: ease-in-out;
+    }
+    
+    .footer-contact-button:hover{
+        font-size: 1rem;
+        color: white;
+        background-color: black;
+        border-radius: 1rem;
+        transform: translate(20px);
+    }
+    
+    .footer-socials-link-container{
+        width: fit-content;
+        height: auto;
+        margin-top: 1.5rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+        align-items: center;
+        column-gap: 1rem;
+    }
+    
+    
+    
+    
+    
+    
+    
+    .about-section{
+        width: 100%;
+        height: auto;
+        margin-top: 2rem;
+        padding: 1rem 1.5rem 1rem 1.5rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-content: center;
+        column-gap: 1rem;
+    }
+    
+    .about-section-left-side-container{
+        width: 60%;
+        height: auto;
+    }
+    
+    .about-section-image-container{
+        width: 100%;
+        height: 127vh;
+        background-image: url("./images/Preshymama\ About.svg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat; 
+        border-radius: 1.5rem;
+    }
+    
+    /* .about-image{
+        width: fit-content;
+        height: auto;
+        border-radius: 1.5rem;
+    } */
+    
+    .second-about-section-left-side-container{
+        display: none;
+    }
+    
+    .about-section-right-side-container{
+        width: 40%;
+        height: auto;
+        
+    }
+    
+    .about-section-right-side-contents-container{
+        width: fit-content;
+        height: auto;
+        padding: 1rem 2rem 2rem 2rem;
+        border-radius: 1.5rem;
+        background-image: url("./images/Hero\ Left.svg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    
+    .about-section-right-side-main-text{
+        width: fit-content;
+        height: auto;
+    }
+    
+    .about-text{
+        font-size: 2rem;
+        font-weight: bold;
+    }
+    
+    .about-section-right-side-description-container{
+        width: fit-content;
+        height: auto;
+        margin-top: 1rem;
+    }
+    
+    .first-paragraph-container{
+        width: fit-content;
+        height: auto;
+    }
+    
+    .first-paragraph{
+        font-size: 1rem;
+        font-weight: 400;
+        color: black;
+    }
+    
+    .second-paragraph-container{
+        width: fit-content;
+        height: auto;
+        margin-top: 1.25rem;
+    }
+    
+    .second-paragraph{
+        font-size: 1rem;
+        font-weight: 400;
+        color: black;
+    }
+    
+    .third-paragraph-container{
+        width: fit-content;
+        height: auto;
+        margin-top: 1.25rem;
+    }
+    
+    .third-paragraph{
+        font-size: 1rem;
+        font-weight: 400;
+        color: black;
+    }
+    
+    .fourth-paragraph-container{
+        width: fit-content;
+        height: auto;
+        margin-top: 1.25rem;
+    }
+    
+    .fourth-paragraph{
+        font-size: 1rem;
+        font-weight: 400;
+        color: black;
+    }
+    
+    
+    
+    
+    .footer-section-description-text-container-contact{
+        width: fit-content;
+        height: auto;
+        margin-top: 2rem;
+    }
+    
+    .footer-socials-link-container-contact{
+        width: fit-content;
+        height: auto;
+        margin-top: 3rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        column-gap: 1rem;
+    }
+    
+    
+    
+    
+    .top-section{
+        width: 100%;
+        height: auto;
+        padding: 1rem 6.25rem 1rem 6.25rem;
+    }
+    
+    .top-section-container{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 1.5rem;
+    }
+    
+    .pickcash-heading-text-container{
+        width: fit-content;
+        height: auto;
+    }
+    
+    .pickcash-text{
+        font-size: 3rem;
+        font-weight: bold;
+        color: #3562D4;
+    }
+    
+    .dev-and-design-text-container{
+        width: fit-content;
+        height: auto;
+        margin-top: 0.5rem;
+    }
+    
+    .dev-and-design-text{
+        font-size: 1.25rem;
+        font-weight: 400;
+    }
+    
+    .year-container{
+        width: fit-content;
+        height: auto;
+        margin-top: 0.25rem;
+    }
+    
+    .year-text{
+        font-size: 1rem;
+        font-weight: 400;
+    }
+    
+    .pick-cash-top-image-container{
+        width: 70%;
+        height: 70vh;
+        border: 1px solid #4e4e4e;
+        border-radius: 0.75rem;
+        margin-top: 1.5rem;
+        background-image: url("./images/Pickcash\ top.svg");
+        background-repeat: no-repeat; 
+    }
+    
+    .product-detail{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 1.5rem;
+        padding: 1rem 10rem 1rem 10rem;
+    }
+    
+    .product-detail-heading-text-container{
+        width: fit-content;
+        height: auto;
+    }
+    
+    .product-detail-text{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #3562D4;
+    }
+    
+    .about-pickcash-app-description-container{
+        width: fit-content;
+        height: auto;
+        margin-top: 0.75rem;
+    }
+    
+    .pickcash-description-text{
+        font-size: 1.25rem;
+        font-weight: 400;
+    }
+    
+    .background-text-container{
+        width: fit-content;
+        height: auto;
+        margin-top: 1.5rem;
+    }
+    
+    .background-text{
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: #3562D4;
+    }
+    
+    .background-description-text-container{
+        width: fit-content;
+        height: auto;
+        margin-top: 0.75rem;
+    }
+    
+    .background-description-text{
+        font-size: 1.25rem;
+        font-weight: 400;
+    }
+    
+    .problem-statement-text-container{
+        width: fit-content;
+        height: auto;
+        margin-top: 1.5rem;
+    }
+    
+    .problem-statement-text{
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: #3562D4;
+    }
+    
+    .problem-statement-description-text{
+        font-size: 1.25rem;
+        font-weight: 400;
+        margin-top: 0.75rem;
+    }
+    
+    .objective-and-goals-text-container{
+        width: fit-content;
+        height: auto;
+        margin-top: 1.5rem;
+    }
+    
+    .objective-and-goals-text{
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: #3562D4;
+    }
+    
+    .objective-and-goals-text{
+        width: fit-content;
+        height: auto;
+    }
+    
+    .ul-list{
+        margin-top: 0.75rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        column-gap: 2rem;
+    }
+    
+    .ul-list li{
+        font-size: 1.25rem;
+        font-weight: 400;
+    }
+    
+    .roles-text-container{
+        width: fit-content;
+        height: auto;
+        margin-top: 1.5rem;
+    }
+    
+    .roles-text{
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: #3562D4;
+    }
+    
+    .roles-description-container{
+        width: fit-content;
+        height: auto;
+        margin-top: 0.75rem;
+    }
+    
+    .role-1{
+        font-size: 1.25rem;
+        font-weight: 400;
+    }
+    
+    .role-2{
+        font-size: 1.25rem;
+        font-weight: 400;
+        margin-top: 0.75rem;
+    }
+    
+    
+    .design-process-text-container{
+        width: fit-content;
+        height: auto;
+        margin-top: 1.5rem;
+    }
+    
+    .design-process-text{
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: #3562D4;
+    }
+    
+    .design-process-image-container{
+        width: 70%;
+        height: 70vh;
+        border: 1px solid #4e4e4e;
+        border-radius: 0.75rem;
+        margin-top: 1.5rem;
+        background-image: url("./images/Design\ P.svg");
+        background-position: center;
+        
+        background-repeat: no-repeat;
+    }
+    
+    .project-duration-text-container{
+        width: fit-content;
+        height: auto;
+        margin-top: 1.5rem;
+    }
+    
+    .project-duration-text{
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: #3562D4;
+    }
+    
+    .project-duration-image-container{
+        width: 70%;
+        height: 70vh;
+        border: 1px solid #4e4e4e;
+        border-radius: 0.75rem;
+        margin-top: 1.5rem;
+        background-image: url("./images/Project\ Duration.svg");
+        background-position: center;
+        
+        background-repeat: no-repeat;
+    }
+    
+    .user-persona-text-container{
+        width: fit-content;
+        height: auto;
+        margin-top: 1.5rem;
+    }
+    
+    .user-persona-text{
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: #3562D4;
+    }
+    
+    .user-persona-image-container{
+        width: 70%;
+        height: 70vh;
+        border: 1px solid #4e4e4e;
+        border-radius: 0.75rem;
+        margin-top: 1.5rem;
+        background-image: url("./images/User\ Persona.svg");
+        background-position: center;
+        
+        background-repeat: no-repeat;
+    }
+    
+    .information-architecture-text-container{
+        width: fit-content;
+        height: auto;
+        margin-top: 1.5rem;
+    }
+    
+    .information-architecture-text{
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: #3562D4;
+    }
+    
+    .information-architecture-image-container{
+        width: 70%;
+        height: 100vh;
+        border: 1px solid #4e4e4e;
+        border-radius: 0.75rem;
+        margin-top: 1.5rem;
+        background-image: url("./images/Info\ Arc.svg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    
+    .color-style-text-container{
+        width: fit-content;
+        height: auto;
+        margin-top: 1.5rem;
+    }
+    
+    .color-style-text{
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: #3562D4;
+    }
+    
+    .color-style-image-container{
+        width: 70%;
+        height: 70vh;
+        border: 1px solid #4e4e4e;
+        border-radius: 0.75rem;
+        margin-top: 1.5rem;
+        background-image: url("./images/Color\ Style.svg");
+        background-position: center;
+        
+        background-repeat: no-repeat;
+    }
+    
+    .text-style-text-container{
+        width: fit-content;
+        height: auto;
+        margin-top: 1.5rem;
+    }
+    
+    .text-style-text{
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: #3562D4;
+    }
+    
+    .text-style-image-container{
+        width: 70%;
+        height: 70vh;
+        border: 1px solid #4e4e4e;
+        border-radius: 0.75rem;
+        margin-top: 1.5rem;
+        background-image: url("./images/Text\ Style.svg");
+        background-position: center;
+        
+        background-repeat: no-repeat;
+    }
+    
+    .components-text-container{
+        width: fit-content;
+        height: auto;
+        margin-top: 1.5rem;
+    }
+    
+    .components-text{
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: #3562D4;
+    }
+    
+    .components-image-container{
+        width: 70%;
+        height: 70vh;
+        border: 1px solid #4e4e4e;
+        border-radius: 0.75rem;
+        margin-top: 1.5rem;
+        background-image: url("./images/Component.svg");
+        background-position: center;
+        
+        background-repeat: no-repeat;
+    }
+    
+    .lo-fidelity-text-container{
+        width: fit-content;
+        height: auto;
+        margin-top: 1.5rem;
+    }
+    
+    .lo-fidelity-text{
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: #3562D4;
+    }
+    
+    .lo-fidelity-image-container{
+        width: 70%;
+        height: 100vh;
+        border: 1px solid #4e4e4e;
+        border-radius: 0.75rem;
+        margin-top: 1.5rem;
+        background-image: url("./images/Lo-Fidelity.svg");
+        background-position: center;
+        
+        background-repeat: no-repeat;
+    }
+    
+    .hi-fidelity-text-container{
+        width: fit-content;
+        height: auto;
+        margin-top: 1.5rem;
+    }
+    
+    .hi-fidelity-text{
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: #3562D4;
+    }
+    
+    
+    .pickcash-hifi-container{
+        width: 70%;
+        height: 100vh;
+        border: 1px solid #4e4e4e;
+        border-radius: 0.75rem;
+        margin-top: 1.5rem;
+        background-image: url("./images/Pickcash\ hifi.svg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    
+    .pickcash-button-bottom-container{
+        width: fit-content;
+        height: auto;
+        margin-top: 1.5rem;
+    }
+    
+    
+    .pickcash-bottom-button{
+        font-size: 1rem;
+        padding: 1rem 1.5rem 1rem 1.5rem;
+        color: black;
+        border: 2px solid black;
+        border-radius: 1rem;
+        transition-property: all;
+        transition-duration: 0.5s;
+        transition-delay: 0.1s;
+        transition-timing-function: ease-in-out;
+    }
+    
+    .pickcash-bottom-button:hover{
+        font-size: 1rem;
+        color: white;
+        background-color: black;
+        border-radius: 1rem;
+        transform: translate(20px);
+    }
+    
+    
+    
+    
+    
+    .top-section2{
+        width: 100%;
+        height: auto;
+        padding: 1rem 6.25rem 1rem 6.25rem;
+    }
+    
+    .top-section-container2{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 1.5rem;
+    }
+    
+    .conversion-heading-text-container{
+        width: fit-content;
+        height: auto;
+    }
+    
+    .conversion-text{
+        font-size: 3rem;
+        font-weight: bold;
+        color: black;
+    }
+    
+    .conversion-top-image-container{
+        width: 70%;
+        height: 100vh;
+        border: 1px solid #4e4e4e;
+        border-radius: 0.75rem;
+        margin-top: 1.5rem;
+        background-image: url("./images/Arc\ 2.svg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    
+    .main-overview-container{
+        width: 100%;
+        height: auto;
+        margin-top: 2.5rem;
+        padding: 1rem 6.25rem 1rem 6.25rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .overview-text-container{
+        width: fit-content;
+        height: auto;
+    }
+    
+    .overview{
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: black;
+    }
+    
+    .task-and-method-container{
+        width: 100%;
+        height: auto;
+        margin-top: 1.5rem;
+        padding: 0 5.5rem 0 5.5rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+        align-items: start;
+        column-gap: 6rem;
+    }
+    
+    .task-details-container{
+        width: 50%;
+        height: auto;
+    }
+    
+    .task-text-container{
+        width: fit-content;
+        height:auto;
+    }
+    
+    .task{
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: black;
+    }
+    
+    .task-detail-text-container{
+        width: fit-content;
+        height: auto;
+        margin-top: 1rem;
+    }
+    
+    .task-details-text{
+        font-size: 1.25rem;
+        color: black;
+    }
+    
+    .method-details-container{
+        width: 50%;
+        height: auto;
+    }
+    
+    .method-text-container{
+        width: fit-content;
+        height:auto;
+    }
+    
+    .method{
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: black;
+    }
+    
+    .method-details-text-container{
+        width: fit-content;
+        height: auto;
+        margin-top: 1rem;
+    }
+    
+    .method-details-text{
+        font-size: 1.25rem;
+        color: black;
+    }
+    
+    .screen-details{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+        align-items: start;
+        column-gap: 4rem;
+        padding: 1.5rem 0 0 1rem;
+        
+    }
+    
+    .left-desktop-screen-details-container{
+        width: 60%;
+        height: auto;
+    }
+    
+    .desktop-text-container{
+        width: fit-content;
+        height: auto;
+    }
+    
+    .desktop{
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: black;
+    }
+    
+    .desktop-image-container{
+        width: fit-content;
+        height: auto;
+        margin-top: 1rem;
+    }
+    
+    .right-tablet-screen-details-container{
+        width: 40%;
+        height: auto;
+    }
+    
+    .tablet-text-container{
+        width: fit-content;
+        height: auto;
+    }
+    
+    .tablet{
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: black;
+    }
+    
+    .tablet-image-container{
+        width: fit-content;
+        height: auto;
+        margin-top: 1rem;
+    }
+    
+    .mobile-text-container{
+        width: fit-content;
+        height: auto;
+        margin-top: 8rem;
+    }
+    
+    .mobile{
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: black;
+    }
+    
+    .mobile-image-container{
+        width: 60%;
+        height: auto;
+        margin-top: 1rem;
+    }
+    
+    .conversion-components{
+        width: 100%;
+        height: auto;
+        margin-top: 3rem;
+    }
+    
+    .conversion-components-main-container{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+         
+    }
+    
+    .conversion-components-text-container{
+        width: fit-content;
+        height: auto;
+    }
+    
+    .conversion-components-text{
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: black;
+    }
+    
+    .conversion-components-image-container{
+        width: 90%;
+        height: auto;
+        margin-top: 1rem;
+    }
+}
