@@ -282,12 +282,67 @@
 .footer-section-email-container{
     width: fit-content;
     height: auto;
-    margin-top: 0.5rem;
+    margin-top: 1.5rem;
 }
 
 .footer-email{
     font-size: 1.25rem;
     font-weight: 400;
+    color: #4e4e4e;
+}
+
+.footer-socials-text-container{
+    width: fit-content;
+    height: auto;
+    margin-top: 0.5rem;
+    display: flex;
+    flex-direction: row;
+    column-gap: 1rem;
+}
+
+.linkedin-link-container{
+    width: fit-content;
+    height: auto;
+}
+
+.linkedin-link-container a{
+    font-size: 1rem;
+    color: #4e4e4e;
+    text-decoration: none;
+}
+
+.linkedin-link-container a:hover{
+    text-decoration: underline;
+}
+
+.behance-link-container{
+    width: fit-content;
+    height: auto;
+}
+
+.behance-link-container a{
+    font-size: 1rem;
+    color: #4e4e4e;
+    text-decoration: none;
+}
+
+.behance-link-container a:hover{
+    text-decoration: underline;
+}
+
+.twitter-link-container{
+    width: fit-content;
+    height: auto;
+}
+
+.twitter-link-container a{
+    font-size: 1rem;
+    color: #4e4e4e;
+    text-decoration: none;
+}
+
+.twitter-link-container a:hover{
+    text-decoration: underline;
 }
 
 .footer-section-phone-container{
@@ -304,7 +359,7 @@
 .footer-button-container{
     width: fit-content;
     height: auto;
-    margin-top: 6rem;
+    margin-top: 3rem;
 }
 
 .footer-contact-button{
@@ -337,6 +392,19 @@
     align-items: center;
     column-gap: 1rem;
 }
+
+.made-with-container{
+    width: fit-content;
+    height: auto;
+    margin-top: 4rem;
+}
+
+.made-with-container p{
+    font-size: 1rem;
+    color: #4e4e4e;
+}
+
+
 
 
 
@@ -467,7 +535,17 @@
 .footer-section-description-text-container-contact{
     width: fit-content;
     height: auto;
-    margin-top: 2rem;
+    margin-top: 1rem;
+}
+
+.footer-section-phone-container{
+    width: fit-content;
+    height: auto;
+}
+
+.footer-section-phone-container p{
+    font-size: 1rem;
+    color: #4e4e4e;
 }
 
 .footer-socials-link-container-contact{
@@ -1461,6 +1539,17 @@ color: #3562D4;
         background-color: black;
         border-radius: 1rem;
         transform: translate(20px);
+    }
+
+    .made-with-container{
+        width: fit-content;
+        height: auto;
+        margin-top: 2rem;
+    }
+    
+    .made-with-container p{
+        font-size: 0.75rem;
+        color: #4e4e4e;
     }
 
 
