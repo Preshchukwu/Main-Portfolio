@@ -168,6 +168,11 @@
     height: auto;
     margin-top: 1.5rem;
     padding: 1rem 6.25rem 1rem 6.25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-content: start;
+    row-gap: 2rem;
 
 }
 
@@ -181,6 +186,158 @@
     column-gap: 2rem;
 }
 
+.hospi-container{
+    width: 50%;
+    height: 75vh;
+    background-image: url("./images/Hospi\ cover.svg");
+    background-position: left;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 1.5rem;
+    text-decoration: none; 
+    transition: all 0.5s;
+}
+
+.hospi-container:hover{
+    transform: scale(1.1);
+    position: relative;
+    .hospi-text-container{
+        width: fit-content;
+        height: auto;
+        margin-left: 2rem;
+        margin-top: 1rem;
+        visibility: visible;
+    }
+}
+
+.hospi-text-container{
+    width: fit-content;
+    height: auto;
+    margin-left: 2rem;
+    margin-top: 1rem;
+    visibility: hidden;
+}
+
+.hospi-app-text{
+    font-size: 2rem;
+    font-weight: 700;
+    color: white;
+}
+
+.rayncraft-container{
+    width: 50%;
+    height: 75vh;
+    background-image: url("./images/RaynCraft\ cover.svg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 1.5rem;
+    text-decoration: none; 
+    transition: all 0.5s;
+}
+
+.rayncraft-container:hover{
+    transform: scale(1.1);
+    position: relative;
+    .rayncraft-text-container{
+        width: fit-content;
+        height: auto;
+        margin-left: 2rem;
+        margin-top: 1rem;
+        visibility: visible;
+    }
+}
+
+.rayncraft-text-container{
+    width: fit-content;
+    height: auto;
+    margin-left: 2rem;
+    margin-top: 1rem;
+    visibility: hidden;
+}
+
+.rayncraft-text{
+    font-size: 2rem;
+    font-weight: 700;
+    color: white;
+}
+
+.artcess-container{
+    width: 50%;
+    height: 75vh;
+    background-image: url("./images/Artcess\ cover.svg");
+    background-position: right;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 1.5rem;
+    text-decoration: none; 
+    transition: all 0.5s;
+}
+
+.artcess-container:hover{
+    transform: scale(1.1);
+    position: relative;
+    .artcess-text-container{
+        width: fit-content;
+        height: auto;
+        margin-left: 2rem;
+        margin-top: 1rem;
+        visibility: visible;
+    }
+}
+
+.artcess-text-container{
+    width: fit-content;
+    height: auto;
+    margin-left: 2rem;
+    margin-top: 1rem;
+    visibility: hidden;
+}
+
+.Utility-app-text{
+    font-size: 2rem;
+    font-weight: 700;
+    color: white;
+}
+
+.Kwik-invoice-container{
+    width: 50%;
+    height: 75vh;
+    background-image: url("./images/Kwik\ invoice\ cover.svg");
+    background-position: left;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 1.5rem;
+    text-decoration: none; 
+    transition:all 0.5s;
+}
+
+.Kwik-invoice-container:hover{
+    transform: scale(1.1);
+    position: relative;
+    .kwik-invoice-text-container{
+        width: fit-content;
+        height: auto;
+        margin-left: 2rem;
+        margin-top: 1rem;
+        visibility: visible;
+    }
+}
+
+.kwik-invoice-text-container{
+    width: fit-content;
+    height: auto;
+    margin-left: 2rem;
+    margin-top: 1rem;
+    visibility: hidden;
+}
+
+.kwik-invoice-app-text{
+    font-size: 2rem;
+    font-weight: 700;
+    color: white;
+}
+
 .pickcash-container{
     width: 50%;
     height: 75vh;
@@ -190,13 +347,27 @@
     background-repeat: no-repeat;
     border-radius: 1.5rem;
     text-decoration: none;
+    transition: transform 0.5s;
+}
+
+.pickcash-container:hover{
+    transform: scale(1.1);
+    position: relative;
+    .pickcash-text-container{
+        width: fit-content;
+        height: auto;
+        margin-left: 2rem;
+        margin-top: 1rem;
+        visibility: visible;
+    }
 }
 
 .pickcash-text-container{
     width: fit-content;
     height: auto;
     margin-left: 2rem;
-    margin-top: 2rem;
+    margin-top: 1rem;
+    visibility: hidden;
 }
 
 .loan-app-text{
@@ -214,13 +385,27 @@
     background-repeat: no-repeat;
     border-radius: 1.5rem;
     text-decoration: none;
+    transition: all 0.5s;
+}
+
+.conversion-website-container:hover{
+    transform: scale(1.1);
+    position: relative;
+    .conversion-text-container{
+        width: fit-content;
+        height: auto;
+        margin-left: 2rem;
+        margin-top: 1rem;
+        visibility: visible;
+    }
 }
 
 .conversion-text-container{
     width: fit-content;
     height: auto;
     margin-left: 2rem;
-    margin-top: 2rem;
+    margin-top: 1rem;
+    visibility: hidden;
 }
 
 .website-redesign-text{
@@ -1376,6 +1561,9 @@ color: #3562D4;
         height: auto;
         margin-top: 0.5rem;
         padding: 1rem;
+        display: flex;
+        flex-direction: column;
+        row-gap: 2rem;
     }
     
     .project-list-container{
@@ -1383,9 +1571,127 @@ color: #3562D4;
         height: auto;
         display: flex;
         flex-direction: column;
-        justify-content: start;
+        justify-content: center;
         align-items: center;
         column-gap: 2rem;
+    }
+
+    .hospi-container{
+        width: 100%;
+        height: 75vh;
+        background-image: url("./images/Hospi\ cover.svg");
+        background-position: left;
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 1rem;
+        text-decoration: none;
+        margin-bottom: 2rem;
+    }
+
+    .hospi-container:hover{
+        transform:none;
+        .hospi-text-container{
+            width: fit-content;
+            height: auto;
+            margin-left: 2rem;
+            margin-top: 1rem;
+            visibility: visible;
+        }
+    }
+    
+    .hospi-text-container{
+        width: fit-content;
+        height: auto;
+        margin-left: 2rem;
+        margin-top: 2rem;
+    }
+
+    .rayncraft-container{
+        width: 100%;
+        height: 75vh;
+        background-image: url("./images/RaynCraft\ cover.svg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 1rem;
+        text-decoration: none;
+    }
+
+    .rayncraft-container:hover{
+        transform:none;
+        .rayncraft-text-container{
+            width: fit-content;
+            height: auto;
+            margin-left: 2rem;
+            margin-top: 1rem;
+            visibility: visible;
+        }
+    }
+    
+    .rayncraft-text-container{
+        width: fit-content;
+        height: auto;
+        margin-left: 2rem;
+        margin-top: 2rem;
+    }
+
+    .artcess-container{
+        width: 100%;
+        height: 75vh;
+        background-image: url("./images/Artcess\ cover.svg");
+        background-position: right;
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 1rem;
+        text-decoration: none;
+        margin-bottom: 2rem;
+    }
+
+    .artcess-container:hover{
+        transform: none;
+        .artcess-text-container{
+            width: fit-content;
+            height: auto;
+            margin-left: 2rem;
+            margin-top: 1rem;
+            visibility: visible;
+        }
+    }
+    
+    .artcess-text-container{
+        width: fit-content;
+        height: auto;
+        margin-left: 2rem;
+        margin-top: 2rem;
+    }
+
+    .Kwik-invoice-container{
+        width: 100%;
+        height: 75vh;
+        background-image: url("./images/Kwik\ invoice\ cover.svg");
+        background-position: left;
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 1rem;
+        text-decoration: none;
+    }
+
+    .Kwik-invoice-container:hover{
+        transform: none;
+        .kwik-invoice-text-container{
+            width: fit-content;
+            height: auto;
+            margin-left: 2rem;
+            margin-top: 1rem;
+            visibility: visible;
+        }
+    }
+    
+    .kwik-invoice-text-container{
+        width: fit-content;
+        height: auto;
+        margin-left: 2rem;
+        margin-top: 2rem;
     }
 
     .pickcash-container{
@@ -1397,6 +1703,17 @@ color: #3562D4;
         background-repeat: no-repeat;
         border-radius: 1rem;
         text-decoration: none;
+    }
+
+    .pickcash-container:hover{
+        transform: none;
+        .pickcash-text-container{
+            width: fit-content;
+            height: auto;
+            margin-left: 2rem;
+            margin-top: 1rem;
+            visibility: visible;
+        }
     }
     
     .pickcash-text-container{
@@ -1415,7 +1732,7 @@ color: #3562D4;
     .conversion-website-container{
         width: 100%;
         height: 75vh;
-        margin-top: 1rem;
+        margin-top: 2rem;
         background-image: url("./images/Arc\ 2.svg");
         background-position: left;
         background-size: cover;
@@ -1423,6 +1740,18 @@ color: #3562D4;
         border-radius: 1rem;
         text-decoration: none;
     }
+
+    .conversion-website-container:hover{
+        transform: none;
+        .conversion-text-container{
+            width: fit-content;
+            height: auto;
+            margin-left: 2rem;
+            margin-top: 1rem;
+            visibility: visible;
+        }
+    }
+    
     
     .conversion-text-container{
         width: fit-content;
@@ -2395,6 +2724,9 @@ color: #3562D4;
         height: auto;
         margin-top: 0.5rem;
         padding: 1rem;
+        display: flex;
+        flex-direction: column;
+        row-gap: 2rem;
     }
     
     .project-list-container{
@@ -2402,9 +2734,127 @@ color: #3562D4;
         height: auto;
         display: flex;
         flex-direction: column;
-        justify-content: start;
+        justify-content: center;
         align-items: center;
         column-gap: 2rem;
+    }
+
+    .hospi-container{
+        width: 100%;
+        height: 75vh;
+        background-image: url("./images/Hospi\ cover.svg");
+        background-position: left;
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 1rem;
+        text-decoration: none;
+        margin-bottom: 2rem;
+    }
+
+    .hospi-container:hover{
+        transform:none;
+        .hospi-text-container{
+            width: fit-content;
+            height: auto;
+            margin-left: 2rem;
+            margin-top: 1rem;
+            visibility: visible;
+        }
+    }
+    
+    .hospi-text-container{
+        width: fit-content;
+        height: auto;
+        margin-left: 2rem;
+        margin-top: 2rem;
+    }
+
+    .rayncraft-container{
+        width: 100%;
+        height: 75vh;
+        background-image: url("./images/RaynCraft\ cover.svg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 1rem;
+        text-decoration: none;
+    }
+
+    .rayncraft-container:hover{
+        transform:none;
+        .rayncraft-text-container{
+            width: fit-content;
+            height: auto;
+            margin-left: 2rem;
+            margin-top: 1rem;
+            visibility: visible;
+        }
+    }
+    
+    .rayncraft-text-container{
+        width: fit-content;
+        height: auto;
+        margin-left: 2rem;
+        margin-top: 2rem;
+    }
+
+    .artcess-container{
+        width: 100%;
+        height: 75vh;
+        background-image: url("./images/Artcess\ cover.svg");
+        background-position: right;
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 1rem;
+        text-decoration: none;
+        margin-bottom: 2rem;
+    }
+
+    .artcess-container:hover{
+        transform: none;
+        .artcess-text-container{
+            width: fit-content;
+            height: auto;
+            margin-left: 2rem;
+            margin-top: 1rem;
+            visibility: visible;
+        }
+    }
+    
+    .artcess-text-container{
+        width: fit-content;
+        height: auto;
+        margin-left: 2rem;
+        margin-top: 2rem;
+    }
+
+    .Kwik-invoice-container{
+        width: 100%;
+        height: 75vh;
+        background-image: url("./images/Kwik\ invoice\ cover.svg");
+        background-position: left;
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 1rem;
+        text-decoration: none;
+    }
+
+    .Kwik-invoice-container:hover{
+        transform: none;
+        .kwik-invoice-text-container{
+            width: fit-content;
+            height: auto;
+            margin-left: 2rem;
+            margin-top: 1rem;
+            visibility: visible;
+        }
+    }
+    
+    .kwik-invoice-text-container{
+        width: fit-content;
+        height: auto;
+        margin-left: 2rem;
+        margin-top: 2rem;
     }
 
     .pickcash-container{
@@ -2416,6 +2866,17 @@ color: #3562D4;
         background-repeat: no-repeat;
         border-radius: 1rem;
         text-decoration: none;
+    }
+
+    .pickcash-container:hover{
+        transform: none;
+        .pickcash-text-container{
+            width: fit-content;
+            height: auto;
+            margin-left: 2rem;
+            margin-top: 1rem;
+            visibility: visible;
+        }
     }
     
     .pickcash-text-container{
@@ -2434,7 +2895,7 @@ color: #3562D4;
     .conversion-website-container{
         width: 100%;
         height: 75vh;
-        margin-top: 1rem;
+        margin-top: 2rem;
         background-image: url("./images/Arc\ 2.svg");
         background-position: left;
         background-size: cover;
@@ -2442,6 +2903,18 @@ color: #3562D4;
         border-radius: 1rem;
         text-decoration: none;
     }
+
+    .conversion-website-container:hover{
+        transform: none;
+        .conversion-text-container{
+            width: fit-content;
+            height: auto;
+            margin-left: 2rem;
+            margin-top: 1rem;
+            visibility: visible;
+        }
+    }
+    
     
     .conversion-text-container{
         width: fit-content;
@@ -3438,20 +3911,149 @@ color: #3562D4;
         height: auto;
         display: flex;
         flex-direction: row;
-        justify-content: start;
+        justify-content: center;
         align-items: start;
         column-gap: 1.5rem;
     }
+
+    .hospi-container{
+        width: 100%;
+        height: 75vh;
+        background-image: url("./images/Hospi\ cover.svg");
+        background-position: left;
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 1rem;
+        text-decoration: none;
+        margin-bottom: 2rem;
+    }
+
+    .hospi-container:hover{
+        transform:none;
+        .hospi-text-container{
+            width: fit-content;
+            height: auto;
+            margin-left: 2rem;
+            margin-top: 1rem;
+            visibility: visible;
+        }
+    }
     
+    .hospi-text-container{
+        width: fit-content;
+        height: auto;
+        margin-left: 2rem;
+        margin-top: 2rem;
+    }
+
+    .rayncraft-container{
+        width: 100%;
+        height: 75vh;
+        background-image: url("./images/RaynCraft\ cover.svg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 1rem;
+        text-decoration: none;
+    }
+
+    .rayncraft-container:hover{
+        transform:none;
+        .rayncraft-text-container{
+            width: fit-content;
+            height: auto;
+            margin-left: 2rem;
+            margin-top: 1rem;
+            visibility: visible;
+        }
+    }
+    
+    .rayncraft-text-container{
+        width: fit-content;
+        height: auto;
+        margin-left: 2rem;
+        margin-top: 2rem;
+    }
+
+    .artcess-container{
+        width: 100%;
+        height: 75vh;
+        background-image: url("./images/Artcess\ cover.svg");
+        background-position: right;
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 1rem;
+        text-decoration: none;
+        margin-bottom: 2rem;
+    }
+
+    .artcess-container:hover{
+        transform: none;
+        .artcess-text-container{
+            width: fit-content;
+            height: auto;
+            margin-left: 2rem;
+            margin-top: 1rem;
+            visibility: visible;
+        }
+    }
+    
+    .artcess-text-container{
+        width: fit-content;
+        height: auto;
+        margin-left: 2rem;
+        margin-top: 2rem;
+    }
+
+    .Kwik-invoice-container{
+        width: 100%;
+        height: 75vh;
+        background-image: url("./images/Kwik\ invoice\ cover.svg");
+        background-position: left;
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 1rem;
+        text-decoration: none;
+    }
+
+    .Kwik-invoice-container:hover{
+        transform: none;
+        .kwik-invoice-text-container{
+            width: fit-content;
+            height: auto;
+            margin-left: 2rem;
+            margin-top: 1rem;
+            visibility: visible;
+        }
+    }
+    
+    .kwik-invoice-text-container{
+        width: fit-content;
+        height: auto;
+        margin-left: 2rem;
+        margin-top: 2rem;
+    }
+
     .pickcash-container{
-        width: 50%;
+        width: 100%;
         height: 75vh;
         background-image: url("./images/Pickcash.svg");
         background-position: left;
         background-size: cover;
         background-repeat: no-repeat;
-        border-radius: 1.5rem;
+        border-radius: 1rem;
         text-decoration: none;
+    }
+
+    .pickcash-container:hover{
+        transform: none;
+        .pickcash-text-container{
+            width: fit-content;
+            height: auto;
+            margin-left: 2rem;
+            margin-top: 1rem;
+            visibility: visible;
+        }
     }
     
     .pickcash-text-container{
@@ -3468,15 +4070,28 @@ color: #3562D4;
     }
     
     .conversion-website-container{
-        width: 50%;
+        width: 100%;
         height: 75vh;
+        margin-top: 2rem;
         background-image: url("./images/Arc\ 2.svg");
         background-position: left;
         background-size: cover;
         background-repeat: no-repeat;
-        border-radius: 1.5rem;
+        border-radius: 1rem;
         text-decoration: none;
     }
+
+    .conversion-website-container:hover{
+        transform: none;
+        .conversion-text-container{
+            width: fit-content;
+            height: auto;
+            margin-left: 2rem;
+            margin-top: 1rem;
+            visibility: visible;
+        }
+    }
+    
     
     .conversion-text-container{
         width: fit-content;
